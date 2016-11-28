@@ -169,6 +169,7 @@
 <v t="leo.20161024160947.1"><vh>@edit 20161024.md</vh></v>
 <v t="leo.20161031143324.1"><vh>@edit 20161031.md</vh></v>
 <v t="leo.20161114144548.1"><vh>@edit 20161114.md</vh></v>
+<v t="leo.20161128161008.1"><vh>@edit 20161128.md</vh></v>
 </v>
 </v>
 </v>
@@ -180,6 +181,12 @@
 <v t="amd.20161004202833.1"><vh>@edit ../README.md</vh></v>
 <v t="yen.20161022111056.1"><vh>@button https server</vh></v>
 <v t="yen.20161022151749.1"><vh>產生 .key 與 .crt</vh></v>
+<v t="leo.20161128160957.1" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20161128160957.2"><vh>Recovered node "封面投影片內容" from @clean index.html</vh>
+<v t="leo.20161128160957.3"><vh>old:封面投影片內容</vh></v>
+<v t="leo.20161128160957.4"><vh>new:封面投影片內容</vh></v>
+</v>
+</v>
 </vnodes>
 <tnodes>
 <t tx="amd.20151215170031.1"></t>
@@ -308,7 +315,7 @@ print("hello")
 ### 虎科大機械設計工程系
 
 &lt;small&gt;
-Created by [40523248](http://s40523248.github.io/kmolab/blog/)
+Created by [40523248](http://chiamingyen.github.io/kmolab/blog/)
 &lt;/small&gt;
 
 [40523248](blog/index.html)
@@ -476,6 +483,45 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 <t tx="leo.20151213230957.1"># 設定網誌以 md 檔案建立的 file system date 為準, 無需自行設定
 
 DEFAULT_DATE = 'fs'</t>
+<t tx="leo.20161128160957.1"></t>
+<t tx="leo.20161128160957.2">(uncached) amd.20161004095719.2
+Diff...
+  # 2016Fall 計算機程式課程
+  
+  ### 虎科大機械設計工程系
+  
+  &lt;small&gt;
+- Created by [40523248](http://chiamingyen.github.io/kmolab/blog/)
+?                              ^^^^^^^^^^^
++ Created by [40523248](http://s40523248.github.io/kmolab/blog/)
+?                              ^^^^^^^^^
+  &lt;/small&gt;
+  
+  [40523248](blog/index.html)
+  
+</t>
+<t tx="leo.20161128160957.3"># 2016Fall 計算機程式課程
+
+### 虎科大機械設計工程系
+
+&lt;small&gt;
+Created by [40523248](http://s40523248.github.io/kmolab/blog/)
+&lt;/small&gt;
+
+[40523248](blog/index.html)
+
+</t>
+<t tx="leo.20161128160957.4"># 2016Fall 計算機程式課程
+
+### 虎科大機械設計工程系
+
+&lt;small&gt;
+Created by [40523248](http://chiamingyen.github.io/kmolab/blog/)
+&lt;/small&gt;
+
+[40523248](blog/index.html)
+
+</t>
 <t tx="yen.20161011114704.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -547,7 +593,8 @@ DEFAULT_DATE = 'fs'</t>
 </t>
 <t tx="yen.20161011122932.1">&lt;section&gt;
 @others
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="yen.20161011122957.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -603,7 +650,8 @@ Brython (Javascript): https://www.brython.info/
 </t>
 <t tx="yen.20161011125115.1">&lt;section&gt;
 @others
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="yen.20161011125115.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -621,7 +669,8 @@ Brython (Javascript): https://www.brython.info/
 </t>
 <t tx="yen.20161011143808.1">&lt;section&gt;
 @others
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="yen.20161011143808.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -670,7 +719,8 @@ Brython (Javascript): https://www.brython.info/
 </t>
 <t tx="yen.20161011145156.1">&lt;section&gt;
 @others
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="yen.20161011145156.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -921,7 +971,8 @@ Brython (Javascript): https://www.brython.info/
 </t>
 <t tx="yen.20161016012809.1">&lt;section&gt;
 @others
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="yen.20161016012809.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -999,7 +1050,8 @@ make.start()
 * 上課筆記與心得寫在個人的 2016fallcp_hw 倉儲 Wiki 中
 * 利用 [ShareX](https://getsharex.com/) 錄製上課操作練習影片
 * 將影片加上說明字幕後, 上傳至個人 [Vimeo](https://vimeo.com/) 與 [Youtube](https://www.youtube.com)
-* 每週更新個人與分組的 Github Pages 投影片與網誌</t>
+* 每週更新個人與分組的 Github Pages 投影片與網誌
+</t>
 <t tx="yen.20161016023122.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
